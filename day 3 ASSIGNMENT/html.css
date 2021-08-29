@@ -1,0 +1,119 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+body{
+    background-color:goldenrod;
+}
+.nav{
+    width: 100%;
+    height: 80px;
+    background-color:crimson;
+
+}
+.logo{
+    width: 10%;
+    height: 80px;
+    /* background-color: yellow; */
+    display: inline-block;
+    margin-left: 50px;
+    vertical-align: top;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+text-align: center;
+line-height: 80px;
+}
+.head{
+    width: 70%;
+    height: 80px;
+    /* background-color: rgb(0, 140, 255); */
+    display: inline-block;
+    margin-left: 5%;
+}
+.nil>li{
+list-style-type: none;
+display: inline-block;
+height: 80px;
+width: 24%;
+background-color: rgb(166, 255, 0);
+font-size: 20px;
+text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+line-height: 80px;
+transition: .3s;
+cursor: pointer;
+vertical-align: top;
+
+}
+.id:hover{
+    background-color: blueviolet;
+}
+.shop:hover{
+    background-color:blueviolet;
+}
+.dropdown>li{
+    list-style-type: none;
+display: inline-block;
+height: 80px;
+width: 100%;
+background-color: rgb(255, 0, 157);
+font-size: 20px;
+text-align: center;
+
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+line-height: 80px;
+transition: .3s;
+cursor: pointer;
+}
+.dropdown
+{
+    display: none;
+    height: 0px;
+    overflow: hidden;
+}
+
+.shop:hover > .dropdown{
+    height: 320px;
+    display: block;
+    background-color:rgb(134, 58, 209);
+    transition: .2s;
+    
+
+}
+.dropdown>li:hover{
+    background-color:whitesmoke;
+}
+.card>li{
+    list-style-type: none;
+    display: inline-block;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(43, 205, 226);
+    font-size: 20px;
+    text-align: center;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 80px;
+    transition: .3s;
+    cursor: pointer;
+    
+}
+.card{
+    display: none;
+    height: 0px;
+    overflow: hidden;
+
+}
+.id:hover>.card{
+    height: 160px;
+    display: block;
+    background-color:rgb(43, 55, 226);
+    transition: .2s;
+}
+.card:hover{
+    background-color:whitesmoke;
+}
+.card:hover{
+    background-color:whitesmoke;
+}
